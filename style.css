@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "varela";
+  src: url(../Varela_Round/VarelaRound-Regular.ttf);
+}
+* {
+  font-family: "varela" !important;
+}
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* padding: 20px; */
+}
+nav {
+  order: 1;
+
+  /* height: 20px; */
+  /* padding: 20px 50px; */
+  /* margin-bottom: 15px; */
+}
+.nav-container {
+  margin: auto auto;
+}
+.navbar {
+  list-style: none;
+  word-spacing: 20px;
+}
+.navbar li {
+  display: inline-block;
+  color: #3acec2;
+  font-weight: bold;
+}
+.navbar li a {
+  text-decoration: none;
+  color: #3acec2;
+}
+.navbar li a:hover {
+  color: blue;
+}
+
+/* -------------------section 1  */
+
+.bg-sectin-1 {
+  background-color: #3acec2;
+  /* display: flex;
+  flex-direction: column; */
+  height: 400px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+section img {
+  /* width: 180px; */
+  height: 180px;
+  /* display: block; */
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  /* width: 50%; */
+}
+section h3 {
+  text-align: center;
+  color: white;
+}
+
+section p {
+  text-align: center;
+  color: white;
+}
+main {
+  display: flex;
+}
+main div {
+  flex: 1;
+  padding: 20px;
+}
+/* .div1-wlc {
+  flex-grow: 1;
+}
+.div1-food {
+  flex-grow: 2;
+}
+.div1-how {
+  flex-grow: 3;
+} */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
